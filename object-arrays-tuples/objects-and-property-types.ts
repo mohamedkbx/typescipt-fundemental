@@ -22,5 +22,21 @@ function printCar(car: { make: string; model: string; year: number; chargeVoltag
   //? Insert into function printCar
   let str = `${car.make} ${car.model} (${car.year})`;
   car.chargeVoltage;
-  if (typeof car.chargeVoltage !== "undefined") str += `// ${car.chargeVoltage}v`;
+  if (typeof car.chargeVoltage !== "undefined") str += `// ${car.chargeVoltage}v`; // within these brackets charged voltage is a number => and this called Narrowing
 }
+
+// printCar({ //? optional property works too!
+//     make: "Tesla",
+//     model: "Model 3",
+//     year: 2020,
+//     chargeVoltage: 220,
+// })
+
+//* Excess property checking
+
+printCar({
+  make: "Tesla",
+  model: "Model 3",
+  year: 2020,
+  color: "RED", //? EXTRA PROPERTY
+});
