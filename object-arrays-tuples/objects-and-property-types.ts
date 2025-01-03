@@ -34,9 +34,9 @@ function printCar(car: { make: string; model: string; year: number; chargeVoltag
 
 //* Excess property checking
 
-printCar({
-  make: "Tesla",
-  model: "Model 3",
-  year: 2020,
-  color: "RED", //? EXTRA PROPERTY
-});
+// printCar({
+//   make: "Tesla",
+//   model: "Model 3",
+//   year: 2020,
+//   color: "RED", //? EXTRA PROPERTY
+// });
