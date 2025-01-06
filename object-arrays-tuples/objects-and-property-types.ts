@@ -1,4 +1,4 @@
-let car: {
+let car3: {
   make: string;
   model: string;
   year: number;
