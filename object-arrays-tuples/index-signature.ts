@@ -26,3 +26,6 @@ const phones1: {
     number: string;
   };
 } = {};
+
+phones.home;
+phones["work"];
