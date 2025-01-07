@@ -16,7 +16,7 @@ let car3: {
  * Print information about a car to the console
  * @param car - the car to print
  */
-function printCar(car: { make: string; model: string; year: number; chargeVoltage?: number }) {
+function printCar1(car: { make: string; model: string; year: number; chargeVoltage?: number }) {
   console.log(`${car.make} ${car.model} (${car.year})`);
   //* Optional properties
   //? Insert into function printCar
