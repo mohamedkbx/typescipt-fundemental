@@ -5,3 +5,5 @@
 - Union and Intersection
 - Interfaces and Type Aliases
 - Type Queries
+- Classes & Type Guards
+- Generics
